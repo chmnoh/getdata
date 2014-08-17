@@ -1,12 +1,12 @@
 getdata
 ===========
 * This project contains run_analysis.R script and CodeBook.md.
-* Run the script and you get 'result.txt', which averages each original 'HAR(Human Activity Recognition)' data features (but only interesting(ex.-mean(),-std()) columns) for each subject, activity.
+* Run the script and you will get 'result.txt', which averages each original 'HAR(Human Activity Recognition)' data features (but only interesting(ex.-mean(),-std()) columns) for each subject, activity.
 * "CodeBook.md" explains 'result.txt' columns.
 * The script assumes that:
-  * Data folder is located in the same directory with the script.
+  * Data folder should be located in the same directory with the script.
   * The data folder should have the name as **'UCI Har Dataset'** and includes raw-data files such as:
-```
+  ```
     UCI HAR DATASET
     |   activity_labels.txt
     |   features.txt
@@ -44,6 +44,7 @@ getdata
                 total_acc_x_train.txt
                 total_acc_y_train.txt
                 total_acc_z_train.txt
-```
+  ```
+  * If you want change the top folder name(here, 'UCI HAR Dataset') to another one, you must change the global variable `g_data_dir` in the script as appropriately.
 * You can obtain the orignal source data from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
