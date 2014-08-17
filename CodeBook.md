@@ -1,18 +1,18 @@
 About result.txt
 =========== 
-* The 'result.txt' output from 'run_analysis.R' script contains some original featrues average values.
-* First 3 columns are subject, activity_label, activity_code.
-  * 'subject' column is a volunteer id.
-  * 'activity_label' is an explanation of the 'activity_code':
-  ```
-  1 WALKING
-  2 WALKING_UPSTAIRS
-  3 WALKING_DOWNSTAIRS
-  4 SITTING
-  5 STANDING
-  6 LAYING
-  ```
-  * The rest columns are the average value of original features(ex.'tBodyAcc-mean()-X', 'tBodyAcc-mean()-Y', 'tBodyAcc-std()-X',...).
+* The 'result.txt' output from 'run_analysis.R' script contains the average values of some original featrues data.
+* First 3 columns are `subject`, `activity_label`, `activity_code`.
+  * `subject` column is a volunteer id.
+  * `activity_label` is an explanation of the `activity_code` such as:
+   ```
+   1 WALKING
+   2 WALKING_UPSTAIRS
+   3 WALKING_DOWNSTAIRS
+   4 SITTING
+   5 STANDING
+   6 LAYING
+   ```
+  * The rest columns are the average values of the original features(ex.'tBodyAcc-mean()-X', 'tBodyAcc-mean()-Y', 'tBodyAcc-std()-X',...) grouped by each(`subject`,`activity_label`).
 
 * Below is the full column listing:
   ```
