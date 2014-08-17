@@ -4,7 +4,7 @@ getdata
 * Run the script and you get 'result.txt', which averages each original 'HAR(Human Activity Recognition)' data features (but only interesting(ex.-mean(),-std()) columns) for each subject, activity.
 * "CodeBook.md" explains 'result.txt' columns.
 * The script assumes that:
-  * Data folder is located with the same directory with the script
+  * Data folder is located in the same directory with the script.
   * The data folder should have the name as **'UCI Har Dataset'** and includes raw-data files such as:
 ```
     UCI HAR DATASET
@@ -45,5 +45,5 @@ getdata
                 total_acc_y_train.txt
                 total_acc_z_train.txt
 ```
-* You can obtain orignal source data from:
+* You can obtain the orignal source data from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
