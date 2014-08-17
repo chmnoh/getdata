@@ -5,7 +5,7 @@ getdata
 * "CodeBook.md" explains 'result.txt' columns.
 * The script assumes that:
   * Data folder is located with the same directory with the script
-  * The data folder should have the name as 'UCI Har Dataset' and includes such as
+  * The data folder should have the name as **'UCI Har Dataset'** and includes raw-data files such as:
 ```
     UCI HAR DATASET
     |   activity_labels.txt
